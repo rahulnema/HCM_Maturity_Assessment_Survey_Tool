@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: HCM Maturity Assessment Survey Tool
+  host: HCM-MA-Survey-Tool
+  disk_quota: 1024M
+  services:
+  - devopsassessment-db-cloudantNoSQLDB
+  - availability-monitoring-auto
